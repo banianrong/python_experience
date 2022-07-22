@@ -35,10 +35,42 @@
 
 `python --version`
 
-如果有给出对应的python版本，则python安装成功
-
-此时再输入
+如果有给出对应的python版本，则python安装成功，此时再输入
 
 'python'
 
 就可以打开python的单行执行窗体了
+
+python是解释器，直接对其语言进行解释运行，所以不同于C，C++的编译，需要先产生exe文件才能运行
+
+**初见python**
+接下来就可以运行你的第一个python程序啦
+
+直接新建一个txt文件，然后将文件的拓展名改成py就可以了。显示文件的拓展名，就是打开文件夹窗口，**左上角**有**查看**，点击后，在右上边有一个**文件扩展名**勾选就可以了。
+
+笔者在里面输入
+
+`print("hello rongrong")`
+
+在双引号中可以输入自己喜欢的语句，中英文都可以，utf-8支持的语言范围很广
+
+**Ctrl+S**保存后，可以打开cmd窗口，**Windows+R**，输入**cmd**就可以打开一个黑窗口，通过**cd**命令移动到py所在的文件夹，然后输入
+
+`python xxx.py`
+
+xxx是自己的python文件名字，就可以看到运行结果了
+
+如果之前没有接触过cmd命令，那么笔者这边提供一个样板，可以先感受python的魅力，仍然是打开cmd窗口，然后按顺序输入一下语句
+
+```
+md python
+cd python
+echo print("hello world") >> hello_world.py
+python hello_world.py
+```
+
+其作用大致为
+- 建立一个python文件夹
+- 进入python文件夹
+- 建立一个hello_world.py文件，里面的内容为print("hello world")
+- 解释hello_world.py，也就是运行这个py文件
