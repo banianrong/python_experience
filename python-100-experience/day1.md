@@ -101,4 +101,48 @@ where there is a will, there is a way
 
 当然前面运行第一个python程序的方法还是太慢了，这里推荐一个IDE软件pycharm，一般community就足够了
 
-感兴趣的同学可以自行网上搜索下载pycharm的教程，这里不再赘述。
+感兴趣的读者可以自行网上搜索下载pycharm的教程，这里不再赘述。
+
+****
+## **课后题目**
+
+```
+import this
+```
+
+看到Tim Peter写的关于python编写的规范之歌
+
+```
+import turtle as t
+
+t.pensize(5)
+t.color('red')
+
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.hideturtle()
+t.mainloop()
+```
+
+这是python中内置的turtle模块，最早是logo语言的一部分，可视化操作非常有意思。笔者小学时接触过一部分turtle，所以更加熟悉。感兴趣的读者可以自行搜索turtle语言，来进行自己的创作。笔者如果有空也会记录turtle的使用语法。
+
+```
+print('hello, world!')
+# print("你好，世界！")
+print('你好', '世界')
+print('hello', 'world', sep = ', ', end = '!')
+print('goodbye, world', end='!\n')
+```
+
+在python中，`print`函数如果没有修改**end**的时候默认是输出一行的，也就是说在输出print里面的文本内容后，后面默认带有'\n'
+
+调整方式就是在后面自行修改end的值，就可以消去这个默认带来的输出烦恼
+
+当然print也可以输出多段内容，其中的间隔默认是空格，如果要修改间隔的形式，可以通过修改**sep**的值来实现
