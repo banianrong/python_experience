@@ -75,3 +75,30 @@ python hello_world.py
 - 进入python文件夹
 - 建立一个hello_world.py文件，里面的内容为print("hello world")
 - 解释hello_world.py，也就是运行这个py文件
+
+**小知识：注释**
+
+> 注释蕴含着程序员的烂漫
+
+这里C和C++的同学需要知道在python中单引号`''`，双引号`""`，三引号`'''`或者`""""""`都代表文本了，单引号不再是字符了。
+
+|注释种类|方式|
+|:-----:|:--:|
+|单行注释|以`# `或者各种引号形式内部|
+|多行注释|必须使用三引号形式，`""""""`&`''''''`|
+
+```
+# editor : banyanrong
+
+'''
+welcome to python
+Everything is right.
+where there is a will, there is a way
+'''
+```
+
+## **利器**
+
+当然前面运行第一个python程序的方法还是太慢了，这里推荐一个IDE软件pycharm，一般community就足够了
+
+感兴趣的同学可以自行网上搜索下载pycharm的教程，这里不再赘述。
